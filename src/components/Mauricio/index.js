@@ -1,9 +1,9 @@
-import bandPhoto from "https://portalaz.com.br/arquivos/60030741b36ba.jpg";
+// import bandPhoto from "https://portalaz.com.br/arquivos/60030741b36ba.jpg";
 
 export function MauricioCard(props) {
   return (
     <div class="card" style="width: 18rem;">
-      <img class={"card-img-top"} src={bandPhoto} alt="band photo" />
+      <img class={"card-img-top"} src="" alt="band photo" />
       <div class="card-body">
         <p class="card-text">
           Calcinha Preta é uma banda de forró eletrônico, formada em 8 de

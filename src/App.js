@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
 import { useState } from "react";
 
 //Components
@@ -9,6 +8,7 @@ import { LuizGonzaga } from "./components/Felipe";
 import { Pernambuco } from "./components/Tathy";
 import { Caviar } from "./components/Tulio";
 import { MauricioCard } from "./components/Mauricio";
+import { TrioVirgulino } from "./components/Flavia";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -27,20 +27,25 @@ function App() {
     //   background-color: black;
     //   color: white;
     // }
+  }
 
-    return (
-      //BOA!
-      // < className="App">
-      <div>
-        <button onClick={changeMode}>{mode.toUpperCase()}</button>
-        <div style={appStyle}>
-          <MauricioCard mode={mode} />
-          <Baroes mode={mode} />
-          {/* <Adriano mode={mode} /> */}
+  return (
+    <>
+      {/* //BOA! */}
+      {/* // < className="App"> */}
+      <div style={appStyle}>
+        <div>
+          <button onClick={changeMode}>{mode.toUpperCase()}</button>
+        </div>
+        <div>
+          {/* <BondeForro />
+          <Falamansa />
+          <Baroes />
+          <Caviar /> */}
         </div>
       </div>
-    );
-  }
+    </>
+  );
 }
 
 export default App;
