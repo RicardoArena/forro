@@ -1,8 +1,8 @@
-export function TrioVirgulino(props) {
+export function TrioVirgulino() {
   return (
-    <div class="card" style="width: 18rem;">
+    <div className="card" style={{ width: "18rem" }}>
       <img
-        className="card-img-top"
+        class="card-img-top"
         src="https://www.triovirgulino.com.br/thumb.php?w=358&h=245&zc=1&src=images/blog/1618433545.jpg"
         alt="Trio Virgulino"
       />
