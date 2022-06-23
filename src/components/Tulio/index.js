@@ -1,11 +1,10 @@
-export function Caviar(props) {
+export function Caviar() {
   return (
-    <>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style={{width: "18rem"}}>
         <img
           class="card-img-top"
           src="https://bergermobile.com.br/wp-content/uploads/2014/05/936315_549123781817411_2018809357_n1.jpg"
-          alt="Card image cap"
+          alt="caviar band"
         />
         <div class="card-body">
           <p class="card-text">
@@ -19,6 +18,5 @@ export function Caviar(props) {
           </p>
         </div>
       </div>
-    </>
   );
 }
