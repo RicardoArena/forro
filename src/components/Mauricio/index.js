@@ -1,9 +1,11 @@
-// import bandPhoto from "https://portalaz.com.br/arquivos/60030741b36ba.jpg";
-
-export function MauricioCard(props) {
+export function CalcinhaPreta() {
   return (
-    <div class="card" style="width: 18rem;">
-      <img class={"card-img-top"} src="" alt="band photo" />
+    <div className="card" style={{ width: "18rem" }}>
+      <img
+        class={"card-img-top"}
+        src="https://img.r7.com/images/paulinha-era-integrante-do-calcinha-preta-23032022212910400?dimensions=771x420"
+        alt="Card image cap"
+      />
       <div class="card-body">
         <p class="card-text">
           Calcinha Preta é uma banda de forró eletrônico, formada em 8 de
